@@ -2,8 +2,7 @@
 
 This is an keycloak example configuration via REST.
 
-Can be run with 
+The jar can be run with: 
 
-     * arg[0] serverUrl - https://url.de/auth  The Keycloak URL
-     * arg[1] redirectUrl - http://localhost:8080/auth/realms/realmy/account
-     * arg[2] adminPassword
+     java -jar https://serverUrl  https://redirectUrl adminPassword
+     
