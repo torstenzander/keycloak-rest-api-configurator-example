@@ -35,11 +35,11 @@ public class KeycloakKonfigurator {
         String realm = "master";
         String newRealm = "realmy";
         String displayName = "REALM COMPANY";
-        String newClient = "kubus";
+        String newClient = "yourClient";
         String protocol = "openid-connect";
-        String theme = "theme";
+        String theme = "yourCustomTheme";
         String passwordPolicy = "notUsername(undefined) and digits(1) and upperCase(1) and length(8) and lowerCase(1) " +
-                "and passwordHistory(5) and regexPattern(^((?![&,|,<,>,\\,\",',^]).)*$) and specialChars(1)";
+                "and passwordHistory(5) and specialChars(1)";
         String maxCountWrongAnswer = "5";
 
         Keycloak keycloak = KeycloakBuilder.builder()
