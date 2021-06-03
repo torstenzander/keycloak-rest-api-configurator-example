@@ -13,7 +13,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <slf4j.version>1.7.22</slf4j.version>
-        <reaseasy.version>3.6.1.Final</reaseasy.version>
+        <reaseasy.version>4.5.7.Final</reaseasy.version>
         <keycloak.version>7.0.0</keycloak.version>
         <java.version>1.8</java.version>
         <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
